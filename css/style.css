@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	margin: auto;
+	width: 90%;
+	height: 100px;
+	margin-top: 30px;
+}
+
+.block {
+	margin: auto;	
+	background-color: tomato;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	position: relative;
+}
+
+.coordinates {
+	margin: auto;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.folder {
+	margin: auto;
+	background-color: lightgrey;
+	background-image: url(../img/folder_002.png);
+	background-size: contain;
+	width: 200px;
+	height: 200px;
+	border: 1px solid tomato;
+}
+
+.opened {
+	background-color: lightgreen;
+	background-image: url(../img/folder_008.png);
+	
+}
+
+.container {
+	margin: auto;
+	width: 100%;
+
+}
+
+.box {
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	background: tomato;
+	margin: 3px;
+	display: inline-block;
+	transition-duration: 0.5s;
+}
+
+.task4 .imgBox{
+	width: 100%;
+	height: 250px;
+	border: 1px solid lightseagreen;
+	background-size: contain;
+}
+
+.task5 .block{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.switcher {
+	margin: 10px;
+	width: 120px;
+	height: 40px;
+	background-color: #2C3E50;
+	position: relative;
+}
+
+.switch {
+	width: 36px;
+	height: 36px;
+	background-color: #F68E56;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
